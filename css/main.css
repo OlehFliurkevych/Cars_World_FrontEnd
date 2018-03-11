@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+    background-color: beige;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color:#555;
+    
+    ~webkit-font-smoothing:antialiased;
+    ~webkit-overflow-scrolling:touch;
+    
+    margin-top: 70px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color:#333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+a{
+/*    color:#f85c37;*/
+    color:#ff661a;
+}
+
+a:hover,a:focus{
+    color:#7b7b7b;
+    text-decoration: none;
+    outline: 0;             
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding 0;
+}
+
+.navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    background: #ff661a;
+/*  background: #ff7878;*/
+}
+
+.navbar-inverse .navbar-brand{
+    color:#999;
+    font-weight:bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+
+#headerwrap{
+    margin-top: 120px;
+/*
+    background: url(../img/Volvo_S90.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 720px;
+    width: 100%;
+    background-size: 100%;
+    
+    ~webkit-background-size:cover;
+    ~o-background-size:cover;
+    background-size:cover;
+*/
+}
+
+
+
+#headerwrap h1{
+    margin-top: 20px;
+    color: 2d2d2d;
+    font-size: 70px;   
+    font-weight: 300;
+    letter-spacing: 3px;    
+}
+
+#headerwrap h2{
+    letter-spacing: 2px;
+    color: 2d2d2d;
+    font-size: 40px;  
+    text-transform: uppercase;
+}
+
+#headerwrap .col-lg-8{
+/*
+    border: 2px solid #2d2d2d;
+    border-radius: 20%;
+*/
+}
+
+
+.w{
+    padding-top: 35px;
+    
+}
+
+h4{
+    font-size: 25px;
+}
+
+#dg{
+    background: #e0e0e0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#dg h4{
+    font-size: 40px;
+}
+
+
+.tilt img{
+/*    transition: all 0.5s ease;*/
+    border-radius: 10%;
+    
+}
+
+
+/*
+.tilt:hover{
+    background: black;
+    transform: rotate(-10deg);
+}
+*/
+
+.tilt img{
+    height: 150px;
+    width: 100%;
+}
+
+.wb{
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+.wb h4{
+    font-size: 35px;
+}
+
+#lg img{
+    width: 100%;
+}
+
+#lg{
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#lg h4{
+    font-size: 45px;
+}
+
+#r{
+    background: #ff661a;
+/*    background: #ff7878;*/
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#r h4{
+    color: white;
+    font-size: 45px;
+}
+
+#r p{
+    color: white;
+}
+
+#f{
+    background: #2d2d2d;
+/*
+    padding-bottom: 20px;
+    padding-top: 30px;
+*/
+}
+
+#f i{
+   color:#bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#f i:hover{
+    color:#ff661a;
+/*    color: #ff7878;*/
+}
+
+.concern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.concern img{
+    height: 150px;
+}
+
+.item img{
+    height: 720px;
+    width: 1280px;
+}
+
+#headerwrap .col-lg-4{
+    padding-top: 20px;
+}
+
+
+
